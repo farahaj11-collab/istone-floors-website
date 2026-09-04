@@ -1,0 +1,17 @@
+{
+  "name": "iStone Floors Website",
+  "install": "npm ci || npm install",
+  "terminals": [
+    {
+      "name": "dev",
+      "command": "npm run dev",
+      "description": "Vite dev server for the iStone Floors website (http://localhost:5173)"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 5173
+    }
+  ]
+}
